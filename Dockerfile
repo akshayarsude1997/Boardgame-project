@@ -8,4 +8,4 @@ COPY target/*.jar $APP_HOME/
 
 WORKDIR $APP_HOME
 
-CMD ["java", "-jar", "app.jar"]
+CMD ["java", "-jar", "database_service_project-0.0.2.jar"]
